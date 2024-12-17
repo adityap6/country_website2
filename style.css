@@ -1,0 +1,370 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; 
+  overflow-y: auto;
+}
+
+.navbar{
+    display: flex;
+    height:50px;
+    text-align: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+}
+  a{
+    text-decoration: none;
+    color: yellow;
+    background-color: darkgray;
+  }
+
+
+nav a{
+    flex: 1;
+    align-items: center;
+    padding-top: 10px;
+    font-size: 24px;
+}
+
+nav a:hover{
+    background-color: white;
+    text-decoration: none;
+    transition: 1s;
+    color: black;
+}
+
+
+.backg{
+    display: flex;
+    flex-direction: column;
+  }
+.backg{
+    background-image: url(images/TM.jpg); 
+    font-size: 30px;
+    color:white;
+    padding: 300px;
+    background-size: 100% 100% ;
+    justify-content:center;
+    align-items: center;
+  }
+
+
+
+#body1 div img{
+    height: 500px;
+    width: 600px;
+    margin: 10px;
+    border-radius: 20px;
+    filter: blur(5px); 
+    transform: scale(1.00);
+    transition: filter 0.2s ease; 
+}
+
+#body1 div img:hover{
+  filter: blur(0px); 
+  transform: scale(1.05);
+  transition: filter 0.2s ease; 
+}
+
+#body3 div img{
+  height: 500px;
+  width: 600px;
+  margin: 10px;
+  border-radius: 20px;
+  filter: blur(5px); 
+  transform: scale(1.00);
+  transition: filter 0.2s ease; 
+}
+
+#body3 div img:hover{
+filter: blur(0px); 
+transform: scale(1.05);
+transition: filter 0.2s ease; 
+}
+
+#bimages{
+    display: flex;
+    flex-direction: row;
+    flex-direction: row;
+    justify-content: center; 
+    overflow: visible;
+  }
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+#bimages img{
+    flex: 1;
+}
+
+
+
+#spare{
+  height: 100%;
+  width: 100%;
+  background-color: RGB(180, 170, 150);
+}
+
+#header1{
+  padding: 15px;
+  background-color: RGB(180, 170, 150);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 24px;
+  margin: 0px;
+}
+
+#hd1{
+  border-style: solid;
+  border-radius: 10px;
+}
+
+#text1{
+  border-style: 2px solid red;
+  padding: 55px;
+  background-color: RGB(180, 170, 150);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 24px;
+  margin: 0px;
+}
+
+#text1{
+  display: flex;
+}
+
+#text1, #p1{
+  font-size: 32px;
+  font-style: bold;
+  flex: 2;
+}
+
+#text1, #i1{
+  flex: 2;
+}
+
+#text2{
+  border-style: 2px solid red;
+  padding: 55px;
+  background-color: RGB(180, 170, 150);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 24px;
+  margin: 0px;
+}
+
+#text2{
+  display: flex;
+}
+
+#text2, #p2{
+  font-size: 32px;
+  font-style: bold;
+  flex: 2;
+}
+
+#text2, #i2{
+  flex: 2;
+}
+
+#text3{
+  border-style: 2px solid red;
+  padding: 55px;
+  background-color: RGB(180, 170, 150);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 24px;
+  margin: 0px;
+}
+
+#text3{
+  display: flex;
+}
+
+#text3, #p3{
+  font-size: 32px;
+  font-style: bold;
+  flex: 2;
+}
+
+#text3, #i3{
+  flex: 2;
+}
+
+/*CUISINE PAGE*/
+
+#body2{
+  color: white;
+}
+
+#body2 img {
+  margin-bottom: 20px;
+  height: 200px;
+  width: 300px;
+}
+
+
+
+.food{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.food div{
+  border: solid;
+  margin: 20px;
+  padding-top: 50px;
+  width: 400px;
+  height:auto;
+}
+
+.food p{
+  margin-top: 2px;
+}
+
+.links{
+  border: none;
+  display: block;
+}
+
+/*TOURIST ATTRACTION*/
+
+.tajmahal{
+  border-style: solid;
+  border: 2px 2px 2px 2px black;
+  padding: 15px;
+  background-color: rgb(107, 115, 128);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  border-radius: 20px;
+  margin: 50px;
+}
+
+.tajmahal{
+  display: flex;
+}
+
+.tajmahal, #tj1{
+  font-size: 38px;
+  font-style: bold;
+  flex: 2;
+}
+
+.tajmahal, #tj2{
+  flex: 2;
+  margin-top: 60px;
+}
+
+
+.Jaipur{
+  border-style: solid;
+  border: 2px 2px 2px 2px black;
+  padding: 15px;
+  background-color: rgb(107, 115, 128);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  border-radius: 20px;
+  margin: 50px;
+}
+
+.Jaipur{
+  display: flex;
+}
+
+.Jaipur, #jp1{
+  font-size: 38px;
+  font-style: bold;
+  flex: 2;
+}
+
+.Jaipur, #jp2{
+  flex: 2;
+  margin-top: 60px;
+}
+
+.gateway{
+  border-style: solid;
+  border: 2px 2px 2px 2px black;
+  padding: 15px;
+  background-color: rgb(107, 115, 128);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  border-radius: 20px;
+  margin: 50px;
+}
+
+.gateway{
+  display: flex;
+}
+
+.gateway, #gw1{
+  font-size: 38px;
+  font-style: bold;
+  flex: 2;
+}
+
+.gateway, #gw2{
+  flex: 2;
+  margin-top: 60px;
+}
+
+.amber{
+  border-style: solid;
+  border: 2px 2px 2px 2px black;
+  padding: 15px;
+  background-color: rgb(107, 115, 128);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  border-radius: 20px;
+  margin: 50px;
+}
+
+.amber{
+  display: flex;
+}
+
+.amber, #ap1{
+  font-size: 38px;
+  font-style: bold;
+  flex: 2;
+}
+
+.amber, #ap2{
+  flex: 2;
+  margin-top: 60px;
+}
+
+.Mysore{
+  border-style: solid;
+  border: 2px 2px 2px 2px black;
+  padding: 15px;
+  background-color: rgb(107, 115, 128);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  border-radius: 20px;
+  margin: 50px;
+}
+
+.Mysore{
+  display: flex;
+}
+
+.Mysore, #mp1{
+  font-size: 38px;
+  font-style: bold;
+  flex: 2;
+}
+
+.Mysore, #mp2{
+  flex: 2;
+  margin-top: 60px;
+}
